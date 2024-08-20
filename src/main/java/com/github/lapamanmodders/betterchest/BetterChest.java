@@ -1,7 +1,6 @@
-package com.example.examplemod;
+package com.github.lapamanmodders.betterchest;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -19,13 +18,14 @@ import org.slf4j.Logger;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("examplemod")
-public class ExampleMod
+@Mod(BetterChest.MOD_ID)
+public class BetterChest
 {
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
+    public static final String MOD_ID = "betterchest";
 
-    public ExampleMod()
+    public BetterChest()
     {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
