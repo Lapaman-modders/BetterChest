@@ -1,2 +1,2 @@
 # BetterChest
-A way to merge infinite chests in minecraft
+A way to merge chests infinitely in minecraft.
