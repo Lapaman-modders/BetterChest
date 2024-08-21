@@ -1,7 +1,6 @@
 package com.github.lapamanmodders.betterchest.items;
 
 import com.github.lapamanmodders.betterchest.BetterChest;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,7 +12,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, BetterChest.MOD_ID);
 
     public static final RegistryObject<Item> REMOTE = ITEMS.register("remote",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.REMOTE_TAB)));
 
 
 

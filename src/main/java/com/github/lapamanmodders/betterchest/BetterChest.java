@@ -1,5 +1,6 @@
 package com.github.lapamanmodders.betterchest;
 
+import com.github.lapamanmodders.betterchest.block.ModBlocks;
 import com.github.lapamanmodders.betterchest.items.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
@@ -33,6 +34,7 @@ public class BetterChest
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
