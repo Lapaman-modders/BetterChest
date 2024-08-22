@@ -22,8 +22,9 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, BetterChest.MOD_ID);
 
     public static final RegistryObject<Block> REMOTE_BLOCK = registerBlock("remote_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.REMOTE_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.REMOTE_TAB);
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name,block);
