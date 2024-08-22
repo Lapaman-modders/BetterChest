@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "betterchest:remote_block",
-    "betterchest:remote"
+    "betterchest:remote_block"
   ]
 }
