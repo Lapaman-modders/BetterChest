@@ -1,5 +1,9 @@
 {
-  "item.comandshifter.comandshifter": "Comand Shifter",
+  "item.comandshifter.comandshiftercobre": "Copper Comand Shifter",
+  "item.comandshifter.comandshifterhierro": "Iron Comand Shifter",
+  "item.comandshifter.comandshifteroro": "Gold Comand Shifter",
+  "item.comandshifter.comandshifterdiamante": "Diamond Comand Shifter",
+  "item.comandshifter.comandshifternetherite": "Netherite Comand Shifter",
 
   "block.comandshifter.comandshifter_block": "Comand Shifter Block",
 

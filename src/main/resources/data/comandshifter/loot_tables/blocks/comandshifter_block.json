@@ -34,7 +34,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "comandshifter:comandshifter"
+              "name": "comandshifter:comandshiftercobre"
             }
           ]
         }
