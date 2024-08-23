@@ -1,7 +1,7 @@
-package com.github.lapamanmodders.betterchest;
+package com.github.lapamanmodders.comandshifter;
 
-import com.github.lapamanmodders.betterchest.block.ModBlocks;
-import com.github.lapamanmodders.betterchest.items.ModItems;
+import com.github.lapamanmodders.comandshifter.block.ModBlocks;
+import com.github.lapamanmodders.comandshifter.items.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -21,14 +21,14 @@ import org.slf4j.Logger;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(BetterChest.MOD_ID)
-public class BetterChest
+@Mod(ComandShifter.MOD_ID)
+public class ComandShifter
 {
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
-    public static final String MOD_ID = "betterchest";
+    public static final String MOD_ID = "comandshifter";
 
-    public BetterChest()
+    public ComandShifter()
     {
 
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();

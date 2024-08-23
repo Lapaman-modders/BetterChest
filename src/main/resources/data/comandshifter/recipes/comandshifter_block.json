@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "betterchest:remote"
+      "item": "comandshifter:remote"
     }
   },
   "result": {
-    "item": "betterchest:remote_block"
+    "item": "comandshifter:remote_block"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "betterchest:block/remote_block"
+    "all": "comandshifter:block/comandshifter_block"
   }
 }

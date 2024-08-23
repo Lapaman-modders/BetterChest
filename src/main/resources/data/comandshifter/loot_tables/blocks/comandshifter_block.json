@@ -25,7 +25,7 @@
                   }
                 }
               ],
-              "name": "betterchest:remote_block"
+              "name": "comandshifter:comandshifter_block"
             },
             {
               "type": "minecraft:item",
@@ -34,7 +34,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "betterchest:remote"
+              "name": "comandshifter:comandshifter"
             }
           ]
         }
