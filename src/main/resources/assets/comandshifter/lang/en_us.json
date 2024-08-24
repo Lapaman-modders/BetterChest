@@ -7,6 +7,8 @@
 
   "block.comandshifter.comandshifter_block": "Comand Shifter Block",
 
-  "itemGroup.comandshiftertab": "Comand Shifter"
+  "itemGroup.comandshiftertab": "Comand Shifter",
+
+  "sounds.comandshifter.remote_button_clicked": "Remote button clicked"
 
 }

@@ -2,6 +2,7 @@ package com.github.lapamanmodders.comandshifter;
 
 import com.github.lapamanmodders.comandshifter.block.ModBlocks;
 import com.github.lapamanmodders.comandshifter.items.ModItems;
+import com.github.lapamanmodders.comandshifter.sound.ModSounds;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -35,6 +36,8 @@ public class ComandShifter
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+
+        ModSounds.register(eventBus);
 
         eventBus.addListener(this::setup);
 

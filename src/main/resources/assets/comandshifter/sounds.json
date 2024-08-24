@@ -1,0 +1,8 @@
+{
+  "remote_button_clicked": {
+  "subtitle": "sounds.comandshifter.remote_button_clicked",
+    "sounds": [
+      "comandshifter:remote_button_clicked"
+    ]
+  }
+}
