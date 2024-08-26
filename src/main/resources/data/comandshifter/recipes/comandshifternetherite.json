@@ -10,13 +10,13 @@
       "item": "minecraft:redstone"
     },
     "C": {
-      "item": "minecraft:copper_ingot"
+      "item": "minecraft:netherite_ingot"
     },
     "H": {
       "item": "minecraft:iron_block"
     }
   },
   "result": {
-    "item": "comandshifter:comandshiftercobre"
+    "item": "comandshifter:comandshifternetherite"
   }
 }
