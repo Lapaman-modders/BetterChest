@@ -1,6 +1,7 @@
 package com.github.lapamanmodders.comandshifter;
 
 import com.github.lapamanmodders.comandshifter.block.ModBlocks;
+import com.github.lapamanmodders.comandshifter.effects.ModEffects;
 import com.github.lapamanmodders.comandshifter.items.ModItems;
 import com.github.lapamanmodders.comandshifter.sound.ModSounds;
 import com.mojang.logging.LogUtils;
@@ -44,6 +45,8 @@ public class ComandShifter
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+        ModEffects.EFFECTS.register(eventBus); // Asegúrate de que los efectos se registren aquí
+
     }
 
     private void setup(final FMLCommonSetupEvent event)
