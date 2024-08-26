@@ -14,19 +14,19 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, ComandShifter.MOD_ID);
 
     public static final RegistryObject<Item> REMOTE = ITEMS.register("comandshiftercobre",
-            () -> new RemoteControllerItem(Tiers.WOOD,new Item.Properties().tab(ModCreativeModeTab.REMOTE_TAB)));
+            () -> new RemoteControllerItem(Tiers.WOOD,new Item.Properties().tab(ModCreativeModeTab.REMOTE_TAB).durability(3)));
 
     public static final RegistryObject<Item> REMOTE2 = ITEMS.register("comandshifterhierro",
-            () -> new RemoteControllerItem(Tiers.WOOD,new Item.Properties().tab(ModCreativeModeTab.REMOTE_TAB)));
+            () -> new RemoteControllerItem(Tiers.WOOD,new Item.Properties().tab(ModCreativeModeTab.REMOTE_TAB).durability(5)));
 
     public static final RegistryObject<Item> REMOTE3 = ITEMS.register("comandshifteroro",
-            () -> new RemoteControllerItem(Tiers.WOOD,new Item.Properties().tab(ModCreativeModeTab.REMOTE_TAB)));
+            () -> new RemoteControllerItem(Tiers.WOOD,new Item.Properties().tab(ModCreativeModeTab.REMOTE_TAB).durability(7)));
 
     public static final RegistryObject<Item> REMOTE4 = ITEMS.register("comandshifterdiamante",
-            () -> new RemoteControllerItem(Tiers.WOOD,new Item.Properties().tab(ModCreativeModeTab.REMOTE_TAB)));
+            () -> new RemoteControllerItem(Tiers.WOOD,new Item.Properties().tab(ModCreativeModeTab.REMOTE_TAB).durability(9)));
 
     public static final RegistryObject<Item> REMOTE5 = ITEMS.register("comandshifternetherite",
-            () -> new RemoteControllerItem(Tiers.WOOD,new Item.Properties().tab(ModCreativeModeTab.REMOTE_TAB)));
+            () -> new RemoteControllerItem(Tiers.WOOD,new Item.Properties().tab(ModCreativeModeTab.REMOTE_TAB).durability(10)));
 
 
 
